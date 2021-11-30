@@ -1,0 +1,27 @@
+.p{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 50px 0px;
+}
+
+.p-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-title{
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.p-desc{
+    font-style: italic;
+    color: rgb(59, 172, 93);
+    margin: 20px 0px;
+}
+
+
+

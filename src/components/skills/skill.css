@@ -6,22 +6,30 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  /* margin-top: 10px; */
+  /* padding-top: 3px; */
 }
+
 
 .s-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
+  /* padding-top: 1px; */
 }
 
 .s-title {
   font-weight: 500;
+  /* margin-top: 10px; */
 }
 
 .s-desc {
   margin: 20px 0;
   font-weight: 400;
+  color: grey;
+  font-style: italic;
 }
 
 .s-skillset {

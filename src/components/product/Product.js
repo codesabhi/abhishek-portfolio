@@ -1,12 +1,20 @@
-import React from 'react'
-import "./product.css"
+import React from "react";
+import "./product.css";
+// import Image from '../../img/portfolio-image.png'
 
-const Product = () => {
-    return (
-        <div>
-            This is gonna be our product
-        </div>
-    )
-}
+const Product = ({ img, link }) => {
+  return (
+    <div className="p">
+      <div className="p-browser">
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+      </div>
+      <a href={link} target="_blank" rel="noreferrer">
+        <img src={img} alt="" className="p-img" />
+      </a>
+    </div>
+  );
+};
 
-export default Product
+export default Product;

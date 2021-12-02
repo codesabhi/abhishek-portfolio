@@ -1,0 +1,75 @@
+.project {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 0px;
+  /* border: 1px solid red; */
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  transition: all 1s ease;
+  /* background-color: #3a4557; */
+  background-color: rgb(56, 85, 85);
+  /* background-color: rgb(60, 70, 60); */
+  /* opacity: 85%; */
+  /* cursor: pointer ; */
+}
+
+.project:hover {
+  transform: translateY(-4%);
+}
+
+.project-info {
+  /* border: 1px solid red; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.project-title {
+  color: rgb(241, 244, 252);
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.project-desc {
+  width: 90%;
+  /* border: 1px solid black; */
+  color: rgba(228, 244, 253, 0.747);
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.project-list {
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 1px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.project-tech {
+  color: rgba(255, 255, 255, 0.712);
+  font-weight: 300;
+  font-size: 14px;
+  flex-grow: 1;
+  /* line-height: 1.75; */
+}
+
+.project-link {
+  /* border: 1px solid green; */
+  color: white;
+  /* margin-top: 20px; */
+  margin-right: 0px;
+  display: block;
+  padding: 10px;
+}
+
+.project-link:hover {
+  color: rgb(6, 241, 6);
+}

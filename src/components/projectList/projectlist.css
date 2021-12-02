@@ -56,8 +56,9 @@
 .project-tech {
   color: rgba(255, 255, 255, 0.712);
   font-weight: 300;
-  font-size: 14px;
+  font-size: 13px;
   flex-grow: 1;
+  text-align: center;
   /* line-height: 1.75; */
 }
 
@@ -71,5 +72,5 @@
 }
 
 .project-link:hover {
-  color: rgb(6, 241, 6);
+  color: rgba(6, 241, 6, 0.788);
 }

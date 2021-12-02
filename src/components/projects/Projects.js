@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="pr">
             <div className="pr-text">
                 <h1 className="pr-title">Other Noteworthy Projects</h1>
-                <a href="https://github.com/codesabhi" target="_blank" className="pr-link"><p className="pr-sub">view the archive</p></a>
+                <a href="https://github.com/codesabhi" rel="noreferrer" target="_blank" className="pr-link"><p className="pr-sub">view the archive</p></a>
             </div>
             <div className="project-list">
             {projects.map((item)=>(

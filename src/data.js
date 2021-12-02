@@ -32,13 +32,15 @@ export const products = [
   },
 ];
 
+
+
 // Noteworthy projects data
 
 export const projects = [
   {
     id: 1,
     title: "Realtime Notification App",
-    desc: "Building a realtime notification app and working to integrate Firebase for login Auth, built with typescript and socket.",
+    desc: "Building a realtime notification app and working to integrate Firebase for login Auth, built with typescript and socket.io.",
     tech: ["React", "Typescript", "Socket.io"],
     link: "https://github.com/codesabhi/typescript-socket",
   },
@@ -58,7 +60,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "TicTacToe",
+    title: "Tic-Tac-Toe",
     desc: "Time to have some more fun a simple tic-tac-toe game, built with react, es6, react-strap and react-toastify.",
     tech: ["React", "React-Strap", "Toastify"],
     link: "https://github.com/codesabhi/tic-tac-toe-React",

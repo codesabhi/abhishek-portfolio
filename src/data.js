@@ -1,7 +1,9 @@
 import crypto from "./projectsImage/crypto4.png";
 import wordIndex from "./projectsImage/Word Index.png";
-import LCO from "./projectsImage/lco.png";
+import lco from "./projectsImage/lco.png";
 
+
+// Featured Projects
 export const products = [
   {
     id: 1,
@@ -24,7 +26,7 @@ export const products = [
   {
     id: 3,
     title: "Learn Code Online",
-    img: LCO,
+    img: lco,
     link: "https://lcocourse.netlify.app/",
     desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
     tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart", "Netlify"],

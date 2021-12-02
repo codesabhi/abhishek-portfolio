@@ -1,0 +1,82 @@
+.d{
+    height: 100vh;
+    position: relative;
+}
+
+.d-bg{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(110, 168, 133);
+    position: absolute;
+}
+
+.d-wrapper {
+    padding: 50px;
+    display: flex;
+  }
+  
+  .d-left {
+    flex: 1;
+  }
+  
+  .d-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .d-title {
+    font-size: 60px;
+    width: 80%;
+  }
+  
+  .d-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+  }
+  
+  .d-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .d-desc {
+    font-weight: 300;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  button {
+    border: 1.5px solid green;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgba(60, 133, 76, 0.562);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }

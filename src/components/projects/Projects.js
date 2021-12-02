@@ -13,11 +13,12 @@ const Projects = () => {
             <div className="project-list">
             {projects.map((item)=>(
                 <ProjectList key={item.id} title={item.title} desc={item.desc} tech={item.tech} link={item.link}/>
-                ))}
-                
+                ))} 
             </div>
         </div>
     )
 }
 
 export default Projects
+
+

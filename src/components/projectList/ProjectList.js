@@ -22,5 +22,4 @@ const ProjectList = ({title, desc, tech, link}) => {
         
     )
 }
-
 export default ProjectList

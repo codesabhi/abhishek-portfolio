@@ -1,4 +1,5 @@
 import React from 'react'
+import { useContext } from 'react';
 import './App.css'
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -6,10 +7,22 @@ import Hero from './components/hero/Hero';
 import ProductList from './components/productList/ProductList';
 import Projects from './components/projects/Projects';
 import Skill from './components/skills/Skill';
+import Toggle from './components/toggle/Toggle';
+import { ThemeContext } from './context';
 
 const App = () => {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <>
+    <div
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
+      <Toggle/>
       <Hero/>
       <About/>
       <Skill/>
@@ -17,7 +30,7 @@ const App = () => {
       <Projects/>
       <Contact/>
       
-      </>
+      </div>
   )
 }
 

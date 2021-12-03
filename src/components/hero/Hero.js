@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
-import Me from '../../img/portfolio-image2.png';
+import Me from "../../img/portfolio-image2.png";
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -17,9 +18,38 @@ const Hero = () => {
             </div>
           </div>
           <p className="i-desc">
-              I am a Frontend Engineer specializing (and occasionally designing) exceptional digital experiences. Currently I am focused on building accessible, MERN eCommerce application.
+            I am a Frontend Engineer specializing (and occasionally designing)
+            exceptional digital experiences. Currently I am focused on building accessible, MERN eCommerce application.
           </p>
+          <div className="i-social">
+            <a
+              className="i-socialicons"
+              rel="noreferrer"
+              href="https://github.com/codesabhi"
+              target="_blank"
+            >
+              <FiGithub />
+            </a>
+            <a
+              className="i-socialicons"
+              rel="noreferrer"
+              href="https://linkedin.com/in/codesabhi"
+              target="_blank"
+            >
+              <FiLinkedin />
+            </a>
+            <a
+              className="i-socialicons"
+              rel="noreferrer"
+              href="https://twitter.com/codes_abhi"
+              target="_blank"
+            >
+              <FiTwitter />
+            </a>
+          </div>
+          
         </div>
+        
         <svg
           width="75"
           height="75"
@@ -78,7 +108,7 @@ const Hero = () => {
         </svg>
       </div>
       <div className="i-right">
-      <div className="i-bg"></div>
+        <div className="i-bg"></div>
         <img src={Me} alt="" className="i-img" />
       </div>
     </div>

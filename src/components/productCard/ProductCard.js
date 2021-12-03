@@ -2,8 +2,12 @@ import React from "react";
 import "./productcard.css";
 import {FiGithub} from 'react-icons/fi'
 import {FiArrowUpRight} from 'react-icons/fi'
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const ProductCard = ({title,img,link,desc,tech,git}) => {
+
+  const theme = useContext(ThemeContext);
   return (
       <>
     <div className="c">
@@ -31,6 +35,7 @@ const ProductCard = ({title,img,link,desc,tech,git}) => {
             href={git}
             target="_blank"
             rel="noreferrer"
+            style={{color: theme.state.darkMode? 'white' : 'teal', border: theme.state.darkMode? 'none': "1px"}}
           >
             <FiGithub/>
           </a>
@@ -39,6 +44,7 @@ const ProductCard = ({title,img,link,desc,tech,git}) => {
             href={link}
             target="_blank"
             rel="noreferrer"
+            style={{color: theme.state.darkMode? 'white' : 'teal', border: theme.state.darkMode? 'none': "1px"  }}
           >
             <FiArrowUpRight/>
           </a>

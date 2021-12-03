@@ -1,6 +1,7 @@
 .d{
     height: 100vh;
     position: relative;
+    
 }
 
 .d-bg{
@@ -75,8 +76,11 @@
     border: 1.5px solid green;
     padding: 15px 25px;
     border-radius: 10px;
+    margin-right: 10px;
     background-color: rgba(60, 133, 76, 0.562);
     color: white;
     font-weight: 500;
     cursor: pointer;
   }
+
+  

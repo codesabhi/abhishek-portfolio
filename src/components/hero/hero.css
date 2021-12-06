@@ -8,8 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
-  /* border: 1px solid red; */
+
 }
 
 .i-right {
@@ -91,28 +90,42 @@
   margin-top: 0px;
   padding-top: 10px;
   font-weight: 400;
-  /* border: 1px solid red; */
+
 }
 
 .i-social{
-  /* display: block; */
   width: auto;
   margin-top: 10px;
 }
 
  .i-socialicons{
   font-size: 22px;
-  /* color: rgb(52, 156, 156);
-   */
   color: rgb(110, 168, 133);
   margin-right: 20px;
-  /* transition: transform 1s; */
+  
 }
 
 .i-socialicons:hover{
   color: forestgreen;
-  /* scale: 1.1; */
-  /* font-size: 26px; */
-  
 } 
+
+@media screen and (max-width:480px) {
+  .i{
+    flex-direction: column;
+  }
+
+  .i-left-wrapper{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+  }
+
+  .i-desc{
+    display: none;
+  }
+  
+}
 

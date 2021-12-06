@@ -1,6 +1,6 @@
 .s-outer {
   width: 100%;
-  height: auto;
+  height: 80vh;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -74,13 +74,37 @@ li:before {
   
 }
 
-@media screen and (max-width: 480px) {
-    .s-skills{
-        /* border: 1px solid red; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* align-items: center; */
-    }
+@media screen and (max-width:480px) {
+  .s-outer{
+    margin-top: 50px;
+    height: 70vh;
+  }
+
+  .s-title{
+    font-size: 35px;
+  }
+
+  .s-desc{
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .s-skillset{
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s-skills{
+    grid-gap: 0 0;
+    margin-left: 35px;
+  }
+
+  li{
+    font-size: 13px;
+    
+  }
+
+  
+  
 }
 

@@ -83,4 +83,53 @@
     cursor: pointer;
   }
 
+  @media screen and (max-width:480px) {
+    .d-wrapper{
+      flex-direction: column;
+      padding: 0px 50px;
+      margin-top: 20px;
+    }
+
+    .d{
+      height: auto;
+      margin-top: 50px;
+    }
+
+    .d-right{
+      margin-top: 10px;
+    }
+
+    .d-title {
+      font-size: 30px;
+    }
+
+    .d-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+
+    .d-desc {
+      display: none;
+    }
+
+    form {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    input {
+      width: 35%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    button {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    
+  }
+
   

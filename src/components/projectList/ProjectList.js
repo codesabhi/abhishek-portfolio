@@ -13,7 +13,7 @@ const ProjectList = ({title, desc, tech, link}) => {
             <h1 className="project-title">{title}</h1>
             <p className="project-desc">{desc}</p>
         </div>
-        <div className="project-list">
+        <div className="project-lists">
         {tech.map((skill,i)=>(
             <span key={i} className="project-tech">{skill}</span>
             ))}

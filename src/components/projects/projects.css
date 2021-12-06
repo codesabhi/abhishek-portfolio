@@ -25,8 +25,6 @@
     margin: 10px 0px;
     font-weight: 500;
     font-size: 16px;
-    /* color: rgb(98, 167, 98); */
-    /* color: #5ccab0; */
     color: rgba(36, 172, 36, 0.932);
 }
 
@@ -43,13 +41,21 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
+    /* border: 1px solid red; */
     
 }
 
 @media  screen and (max-width:480px) {
+    .pr{
+        padding: 10px;
+        margin-top: 50px;
+    }
+
     .project-list{
-        display: flex;
+        width: 100%;
+        margin-left: 0px;
         flex-direction: column;
+        align-items: center;
     }
     
 }

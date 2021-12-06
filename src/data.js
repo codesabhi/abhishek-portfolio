@@ -29,7 +29,7 @@ export const products = [
     img: lco,
     link: "https://lcocourse.netlify.app/",
     desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
-    tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart", "Netlify"],
+    tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart"],
     gitlink: "https://github.com/codesabhi/LCO-course-App",
   },
 ];

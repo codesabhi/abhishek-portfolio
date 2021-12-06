@@ -42,13 +42,14 @@
   margin-top: 10px;
 }
 
-.project-list {
+.project-lists {
   width: 100%;
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 25px;
+  /* margin-bottom: 20px; */
   margin-left: 1px;
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: space-around;
 }
 
@@ -72,4 +73,17 @@
 
 .project-link:hover {
   color: rgba(6, 241, 6, 0.788);
+}
+
+@media screen and (max-width:480px) {
+  .project{
+    width: 90%;
+    height: auto;
+    margin:10px 0px;
+  }
+
+  .project-lists{
+    margin-bottom: 20px;
+  }
+  
 }

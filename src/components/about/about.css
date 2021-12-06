@@ -59,3 +59,44 @@ span a{
     color: rgb(96, 168, 96);
     text-decoration: none;
 }
+
+@media screen and (max-width:480px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        /* margin-top: 50px; */
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .a-left{
+        width: 100%;
+        display: none;
+    }
+
+    .a-card{
+        height: 40vh;
+        width: 40%;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+
+    .a-right{
+        padding: 20px;
+    }
+
+    .a-title{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .a-desc{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+}

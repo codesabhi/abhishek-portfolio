@@ -11,7 +11,7 @@ export const products = [
     img: crypto,
     link: "https://crypto-stalker.netlify.app/",
     desc: "A crypto currency application to stalk all your favorite cryptocurrencies at one place including market cap, time gap and chart analysis.",
-    tech: ["React", "Material UI", "Chart Js", "Redux Toolkit", "Netlify"],
+    tech: ["React", "Material UI", "Chart Js", "Redux", "Netlify"],
     gitlink: "https://github.com/codesabhi/crypto-stalker-app",
   },
   {

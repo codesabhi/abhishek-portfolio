@@ -2,11 +2,10 @@ import React from "react";
 import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
-import { useContext } from "react";
-import { ThemeContext } from "../../context";
+
 
 const Hero = () => {
-  const theme = useContext(ThemeContext);
+  // const theme = useContext(ThemeContext);
 
   return (
     <div className="i">

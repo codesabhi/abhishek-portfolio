@@ -87,6 +87,7 @@ li:before {
   .s-desc{
     font-weight: 400;
     font-size: 15px;
+    text-align: center;
   }
 
   .s-skillset{

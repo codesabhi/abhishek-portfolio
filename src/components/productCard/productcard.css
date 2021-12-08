@@ -27,14 +27,14 @@
 .c-cards{
     width: 85%;
     height: 50vh;
-    opacity: 100%;
+    opacity: 0.9;
     border-radius: 20px;
     overflow: hidden;
     /* z-index: 0.8; */
 }
 
 .c-cards:hover{
-    opacity: 100%;
+    opacity: 1;
 }
 
 

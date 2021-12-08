@@ -8,7 +8,7 @@ export const products = [
   {
     id: 1,
     title: "Crypto Stalker",
-    img: 'image/cryptostalker.png',
+    img: './cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
     desc: "A crypto currency application to stalk all your favorite cryptocurrencies at one place including market cap, time gap and chart analysis.",
     tech: ["React", "Material UI", "Chart Js", "Redux", "Netlify"],
@@ -17,7 +17,7 @@ export const products = [
   {
     id: 2,
     title: "Word Index",
-    img: 'image/wordindex.png',
+    img: './wordindex.png',
     link: "https://wordindex.netlify.app/",
     desc: "A dictionary app which supports twelve languages along with audio support also a progressive web app that is downloadable on respectable devices",
     tech: ["React", "Material UI", "Axios", "PWAs", "Netlify"],
@@ -26,7 +26,7 @@ export const products = [
   {
     id: 3,
     title: "Learn Code Online",
-    img: 'image/learncode.png',
+    img: './learncode.png',
     link: "https://lcocourse.netlify.app/",
     desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
     tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart"],

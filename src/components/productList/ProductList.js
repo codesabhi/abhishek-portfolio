@@ -13,7 +13,7 @@ const ProductList = () => {
         <p className="p-desc">"Solving One Bug At A Time"</p>
         </div>
         <div className="p-list">
-        {products.map((item)=>(
+        {products && products.map((item)=>(
             <ProductCard key={item.id} title={item.title} img={item.img} link={item.link} desc={item.desc} tech={item.tech} git={item.gitlink}/>
             ))}
         </div>

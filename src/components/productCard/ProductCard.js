@@ -5,14 +5,17 @@ import {FiArrowUpRight} from 'react-icons/fi'
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
+
 const ProductCard = ({title,img,link,desc,tech,git}) => {
 
   const theme = useContext(ThemeContext);
   return (
       <>
+      
     <div className="c">
       <div className="c-left">
-        <div className="c-card bg"></div>
+        {/* <div className="c-card bg"></div> */}
+        
         <div className="c-cards">
           <a href={link} target="_blank" rel="noreferrer" className="c-imglink"><img src={img} alt="" className="c-img" /></a>
         </div>
@@ -53,6 +56,7 @@ const ProductCard = ({title,img,link,desc,tech,git}) => {
       
     </div>
     <div className="border"></div>
+    
     </>
     
   );

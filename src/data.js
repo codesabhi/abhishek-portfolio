@@ -1,6 +1,6 @@
-import crypto from "./projectsImage/crypto4.png";
-import wordIndex from "./projectsImage/Word Index.png";
-import lco from "./projectsImage/lco.png";
+// import crypto from '/Image/cryptostalker.png'
+// import wordindex from '/Image/wordindex.png'
+// import learncode from '/Image/learncode.png'
 
 
 // Featured Projects
@@ -8,7 +8,7 @@ export const products = [
   {
     id: 1,
     title: "Crypto Stalker",
-    img: crypto,
+    img: 'image/cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
     desc: "A crypto currency application to stalk all your favorite cryptocurrencies at one place including market cap, time gap and chart analysis.",
     tech: ["React", "Material UI", "Chart Js", "Redux", "Netlify"],
@@ -17,7 +17,7 @@ export const products = [
   {
     id: 2,
     title: "Word Index",
-    img: wordIndex,
+    img: 'image/wordindex.png',
     link: "https://wordindex.netlify.app/",
     desc: "A dictionary app which supports twelve languages along with audio support also a progressive web app that is downloadable on respectable devices",
     tech: ["React", "Material UI", "Axios", "PWAs", "Netlify"],
@@ -26,7 +26,7 @@ export const products = [
   {
     id: 3,
     title: "Learn Code Online",
-    img: lco,
+    img: 'image/learncode.png',
     link: "https://lcocourse.netlify.app/",
     desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
     tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart"],
@@ -37,7 +37,6 @@ export const products = [
 
 
 // Noteworthy projects data
-
 export const projects = [
   {
     id: 1,

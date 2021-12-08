@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { ThemeContext } from "../../context";
 
 
 const Hero = () => {
-  // const theme = useContext(ThemeContext);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
     <div className="i">
@@ -58,7 +60,7 @@ const Hero = () => {
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke='black'
+          stroke={darkMode ? 'white' : 'black'}
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >

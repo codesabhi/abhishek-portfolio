@@ -8,12 +8,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid black; */
 
 }
 
 .i-right {
   flex: 1;
   position: relative;
+  /* border: 1px solid red; */
+  /* background-color: 1px solid black; */
 }
 
 .i-left-wrapper {
@@ -90,18 +93,19 @@
   margin-top: 0px;
   padding-top: 10px;
   font-weight: 400;
-
 }
 
 .i-social{
   width: auto;
   margin-top: 10px;
+  /* border: 1px solid red; */
 }
 
  .i-socialicons{
   font-size: 22px;
   color: rgb(110, 168, 133);
   margin-right: 20px;
+  /* border: 1px solid grey; */
   
 }
 
@@ -125,6 +129,24 @@
 
   .i-desc{
     display: none;
+  }
+
+  .i-social{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .i-socialicons{
+    text-align: center;
+  }
+
+  .i-intro{
+    font-size: 25px;
+    font-weight: 300;
   }
   
 }

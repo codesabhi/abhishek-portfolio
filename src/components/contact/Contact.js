@@ -55,15 +55,15 @@ const Contact = () => {
         </div>
         <div className="d-right">
           <p className="d-desc">
-            <b>What’s Next?</b> I’m currently looking for any new opportunities,
+            <b>What’s Next?</b> I'm currently looking for any new opportunities,
             my inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} rows="5" placeholder="Message" name="message" />
+          <form ref={formRef} onSubmit={handleSubmit} >
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" name="user_name" />
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Subject" name="user_subject" />
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Email" name="user_email" />
+            <textarea required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Thank you..."}
           </form>

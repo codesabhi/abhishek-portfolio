@@ -4,7 +4,7 @@ import Moon from "../../img/moon.png";
 import "./toggle.css";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
-import {FiArrowRight} from 'react-icons/fi'
+
 
 const Toggle = () => {
   const theme = useContext(ThemeContext);

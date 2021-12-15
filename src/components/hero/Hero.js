@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
-import { FiArrowRight,FiFileText, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiFileText, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { ThemeContext } from "../../context";
 
 

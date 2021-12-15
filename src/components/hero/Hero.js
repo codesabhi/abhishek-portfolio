@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiArrowRight,FiFileText, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { ThemeContext } from "../../context";
 
 
@@ -27,6 +27,14 @@ const Hero = () => {
             exceptional digital experiences. Currently I am focused on building accessible, MERN eCommerce application.
           </p>
           <div className="i-social">
+          <a
+              className="i-socialicons"
+              rel="noreferrer"
+              href="./Abhishek_Yadav_Resume.pdf"
+              target="_blank"
+            >
+              <FiFileText />
+            </a>
             <a
               className="i-socialicons"
               rel="noreferrer"
@@ -51,6 +59,8 @@ const Hero = () => {
             >
               <FiTwitter />
             </a>
+            
+            
           </div>
           
         </div>

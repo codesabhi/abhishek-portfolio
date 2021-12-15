@@ -113,6 +113,14 @@
   color: forestgreen;
 } 
 
+/* .resumes{
+  font-size: 14px;
+  padding: 8px;
+  text-decoration: none;
+  margin-left: 20px;
+  border: 1px solid green;
+} */
+
 @media screen and (max-width:480px) {
   .i{
     flex-direction: column;

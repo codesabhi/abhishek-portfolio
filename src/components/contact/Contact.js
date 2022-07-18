@@ -60,9 +60,11 @@ const Contact = () => {
             say hi, I’ll try my best to get back to you!
           </p>
           <form ref={formRef} onSubmit={handleSubmit} >
-            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" name="user_name" />
-            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Subject" name="user_subject" />
-            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Email" name="user_email" />
+          <div className="inputDiv">
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" className="nameInput" name="user_name" />
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Subject" className="subjectInput" name="user_subject" />
+            </div>
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Email" className="emailInput" name="user_email" />
             <textarea required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Thank you..."}

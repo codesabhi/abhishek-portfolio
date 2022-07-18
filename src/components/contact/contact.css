@@ -53,10 +53,36 @@
 
   form {
     margin-top: 20px;
+    width: 100%;
   }
   
-  input {
-    width: 50%;
+  .emailInput {
+    width: 48%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  .inputDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nameInput{
+    width: 48%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .subjectInput{
+    width: 48%;
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
@@ -75,7 +101,7 @@
   button {
     border: 1.5px solid green;
     padding: 15px 25px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-right: 10px;
     background-color: rgba(60, 133, 76, 0.562);
     color: white;
@@ -123,6 +149,10 @@
       height: 40px;
       margin: 10px;
       margin-left: 0;
+    }
+
+    .emailInput{
+      width: 98%;
     }
   
     button {

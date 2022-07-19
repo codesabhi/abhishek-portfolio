@@ -30,7 +30,7 @@ const Hero = () => {
           <a
               className="i-socialicons"
               rel="noreferrer"
-              href="./Abhishek_Yadav_Resume.pdf"
+              href="./Abhishek_Yadav_Resumes.pdf"
               target="_blank"
             >
               <FiFileText />

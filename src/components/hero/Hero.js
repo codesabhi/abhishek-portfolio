@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <p className="i-desc">
             I am a Frontend Engineer specializing (and occasionally designing)
-            exceptional digital experiences. Currently I am focused on building accessible, MERN eCommerce application.
+            exceptional digital experiences. Currently I am focused on building live photo sharing application.
           </p>
           <div className="i-social">
           <a

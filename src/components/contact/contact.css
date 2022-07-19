@@ -1,5 +1,5 @@
 .d{
-    height: 100vh;
+    height: 95vh;
     position: relative;
     
 }
@@ -109,6 +109,10 @@
     cursor: pointer;
   }
 
+  .done{
+    color: green
+  }
+
   @media screen and (max-width:480px) {
     .d-wrapper{
       flex-direction: column;
@@ -154,10 +158,21 @@
     .emailInput{
       width: 98%;
     }
+
+    textarea{
+      width: 98%
+    }
   
     button {
       margin-top: 20px;
       margin-bottom: 30px;
+    }
+
+
+    .done{
+      margin-top: 5px;
+      margin-bottom: 30px;
+      color: green;
     }
     
   }

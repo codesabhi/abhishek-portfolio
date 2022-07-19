@@ -8,6 +8,7 @@ import { ThemeContext } from "../../context";
 
 const Contact = () => {
   const formRef = useRef();
+
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -61,13 +62,15 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit} >
           <div className="inputDiv">
-            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" className="nameInput" name="user_name" />
+            <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Name" className="nameInput" name="user_name"  />
             <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Subject" className="subjectInput" name="user_subject" />
             </div>
             <input required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} type="text" placeholder="Email" className="emailInput" name="user_email" />
             <textarea required="true" style={{backgroundColor: darkMode && "#333", color: darkMode && 'white'}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <button  style={done ? {display: 'none'} : {}}>Submit</button>
+            <div className="done" style={!darkMode ? {color: 'darkGreen'} :{}}>
             {done && "Thank you..."}
+            </div>
           </form>
         </div>
       </div>

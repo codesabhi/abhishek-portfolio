@@ -3,7 +3,7 @@ import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
 import { FiFileText, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { ThemeContext } from "../../context";
-import Contact from "../contact/Contact";
+
 
 
 const Hero = () => {

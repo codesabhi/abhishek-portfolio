@@ -3,11 +3,13 @@ import "./hero.css";
 import Me from "../../img/portfolio-image2.png";
 import { FiFileText, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { ThemeContext } from "../../context";
+import Contact from "../contact/Contact";
 
 
 const Hero = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
 
   return (
     <div className="i">
@@ -23,8 +25,9 @@ const Hero = () => {
             </div>
           </div>
           <p className="i-desc">
-            I am a Frontend Engineer specializing (and occasionally designing)
-            exceptional digital experiences. Currently I am focused on building live photo sharing application.
+            I am a Fullstack web developer specializing (and occasionally designing)
+            exceptional digital experiences. Currently, I am focused on building accessible human-centered products.<br/>
+            {/* Got a question? Drop me a <span onClick={handleMessage}><a>message</a></span> */}
           </p>
           <div className="i-social">
           <a

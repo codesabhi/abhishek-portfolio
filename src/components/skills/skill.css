@@ -53,7 +53,7 @@
   /* text-align: center; */
 }
 
-li {
+.skillList {
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -64,7 +64,7 @@ li {
     font-size: var(--fz-xs); */
 }
 
-li:before {
+.skillList:before {
   content: "▹";
   position: absolute;
   left: 0;

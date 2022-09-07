@@ -1,0 +1,52 @@
+.testimonial{
+    width: 100%;
+    height: 500px;
+}
+
+.testOne{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+.testDivOne{
+    /* border: 1px solid green; */
+    width: 550px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: 85px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 20px;
+    padding-top: 40px;
+}
+
+.testDescOne{
+    font-size: 32px;
+    font-weight: 400;
+    /* width: 50; */
+    color: white;
+    
+}
+
+.testDescTwo{
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    width: 70%;
+    color: white;
+    
+}
+
+.testOwner{
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.testProfile{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(1, 128, 1, 0.788);
+}

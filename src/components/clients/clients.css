@@ -1,0 +1,59 @@
+.clientsSection{
+    padding-top: 50px;
+    width: 100%;
+    height: 230px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.clientsTitle{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.imageSection{
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+
+
+}
+
+.client-img{
+    width: 80px;
+    height: 80px;
+}
+
+.client-img2{
+    margin-top: 30px;
+}
+
+.client-img3{
+    width: 100px;
+    height: 150px;
+    margin-top: -19px;
+}
+
+.client4{
+    font-size: 25px;
+    margin-top: 32px;
+    color: rgb(1, 128, 1);
+}
+
+.clientsMove{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+
+    
+}
+

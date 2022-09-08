@@ -50,3 +50,37 @@
     font-weight: 700;
     color: rgba(1, 128, 1, 0.788);
 }
+
+
+@media screen and (max-width:480px) {
+
+    .testOne{
+        font-size: 40px;
+        /* font-weight: 600; */
+        margin-left: 30px;
+        margin-top: -68px;
+    }
+
+    .testDivOne{
+        
+        width: 400px;
+        height: 200px;
+        margin-left: 37px;
+        /* margin-left: 400px; */
+        /* margin-top: 85px; */
+        background-color: rgb(31, 30, 30);
+        border-radius: 20px;
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+
+    .testAll{
+        font-size: 12px;
+    }
+
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

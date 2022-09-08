@@ -6,9 +6,11 @@ import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
 import ProductList from './components/productList/ProductList';
 import Projects from './components/projects/Projects';
+import Clients from './components/clients/Clients';
 import Skill from './components/skills/Skill';
 import Toggle from './components/toggle/Toggle';
 import { ThemeContext } from './context';
+import Testimonial from './components/testimonials/Testimonial';
 
 const App = () => {
 
@@ -28,6 +30,8 @@ const App = () => {
       <Skill/>
       <ProductList/>
       <Projects/>
+      <Clients/>
+      <Testimonial/>
       <Contact/>
       
       </div>

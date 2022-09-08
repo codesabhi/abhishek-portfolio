@@ -19,15 +19,15 @@ const Hero = () => {
           <h1 className="i-name">Abhishek Yadav</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Frontend Developer</div>
+              <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">MERN Stack</div>
               <div className="i-title-item">UI Designer</div>
             </div>
           </div>
           <p className="i-desc">
             I am a Fullstack web developer specializing (and occasionally designing)
-            exceptional digital experiences. Currently, I am focused on building accessible human-centered products.<br/>
-            {/* Got a question? Drop me a <span onClick={handleMessage}><a>message</a></span> */}
+            exceptional digital experiences. Currently, I am focused on building accessible human-centered products.<br/><br/>
+            Need a website? Drop me a <span style={{cursor: 'pointer'}} onClick={() => window.location = 'mailto: yadavabhishek241296@gmail.com'} ><a>message</a></span>
           </p>
           <div className="i-social">
           <a

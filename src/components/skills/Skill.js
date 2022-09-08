@@ -11,7 +11,7 @@ const skill = () => {
         </div>
         <div className="s-skillset">
         <ul className="s-skills">
-                {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+                {skills && skills.map((skill, i) => <li className='skillList' key={i}>{skill}</li>)}
             </ul>
         </div>
             

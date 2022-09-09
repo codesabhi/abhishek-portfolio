@@ -5,8 +5,18 @@
 
 // Featured Projects
 export const products = [
+
   {
     id: 1,
+    title: "Marshall's Shop",
+    img: './images/marshall.png',
+    link: "https://marshall-shop.netlify.app/",
+    desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 125% with the brand. ",
+    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+    gitlink: "https://github.com/codesabhi/Marshall-shop",
+  },
+  {
+    id: 2,
     title: "Crypto Stalker",
     img: './images/cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
@@ -14,15 +24,15 @@ export const products = [
     tech: ["React", "Material UI", "Chart Js", "Redux", "Netlify"],
     gitlink: "https://github.com/codesabhi/crypto-stalker-app",
   },
-  {
-    id: 2,
-    title: "Word Index",
-    img: './images/wordindex.png',
-    link: "https://wordindex.netlify.app/",
-    desc: "A dictionary app which supports twelve languages along with audio support also a progressive web app that is downloadable on respectable devices",
-    tech: ["React", "Material UI", "Axios", "PWAs", "Netlify"],
-    gitlink: "https://github.com/codesabhi/word-index",
-  },
+  // {
+  //   id: 2,
+  //   title: "Word Index",
+  //   img: './images/wordindex.png',
+  //   link: "https://wordindex.netlify.app/",
+  //   desc: "A dictionary app which supports twelve languages along with audio support also a progressive web app that is downloadable on respectable devices",
+  //   tech: ["React", "Material UI", "Axios", "PWAs", "Netlify"],
+  //   gitlink: "https://github.com/codesabhi/word-index",
+  // },
   {
     id: 3,
     title: "Learn Code Online",

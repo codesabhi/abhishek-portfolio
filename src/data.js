@@ -6,17 +6,38 @@
 // Featured Projects
 export const products = [
 
+
   {
     id: 1,
+    title: "Daily Fitness",
+    img: './images/Dailyfitnes.png',
+    link: "https://daily-fit.netlify.app",
+    desc: "Daily fitness is a known fitness brand in Florida. Redesigned it's website to emerge them as fitness leader and increases their online user engagement rate by 125% in just 60 days of the website launch.",
+    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+    gitlink: "https://github.com/codesabhi/Daily-Fitness",
+  },
+
+  {
+    id: 2,
+    title: "Get Fit",
+    img: './images/Getfit.png',
+    link: "https://get-fitness.netlify.app/",
+    desc: "Redesign and build the website for Get Fit brand in Atlanta and was able generate 20+ monthly quotes and 8 new clients each month successfully.",
+    tech: ["Javascript", "Bootstrap", "ES6", "SASS", "Netlify"],
+    gitlink: "https://github.com/codesabhi/GetFit",
+  },
+
+  {
+    id: 3,
     title: "Marshall's Shop",
     img: './images/marshall.png',
     link: "https://marshall-shop.netlify.app/",
-    desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 125% with the brand. ",
+    desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 141% with the brand. ",
     tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
     gitlink: "https://github.com/codesabhi/Marshall-shop",
   },
   {
-    id: 2,
+    id: 4,
     title: "Crypto Stalker",
     img: './images/cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
@@ -34,7 +55,7 @@ export const products = [
   //   gitlink: "https://github.com/codesabhi/word-index",
   // },
   {
-    id: 3,
+    id: 5,
     title: "Learn Code Online",
     img: './images/learncode.png',
     link: "https://lcocourse.netlify.app/",

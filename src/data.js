@@ -9,16 +9,26 @@ export const products = [
 
   {
     id: 1,
-    title: "Daily Fitness",
-    img: './images/Dailyfitnes.png',
-    link: "https://daily-fit.netlify.app",
-    desc: "Daily fitness is a known fitness brand in Florida. Redesigned it's website to emerge them as fitness leader and increases their online user engagement rate by 125% in just 60 days of the website launch.",
+    title: "The Roof Commander",
+    img: './images/Commander.png',
+    link: "https://www.roofcommander.com/",
+    desc: "Roof Commander is a known roofing company serving in Atlantic coastal region. Redesigned it's website to emerge them as business leader and increases their online user engagement rate by 125% in just 60 days of the website launch.",
     tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
-    gitlink: "https://github.com/codesabhi/Daily-Fitness",
+    gitlink: "https://www.roofcommander.com/",
   },
 
   {
     id: 2,
+    title: "Vanguard Properties",
+    img: './images/Vanguard.png',
+    link: "https://www.vangproperties.com/en/",
+    desc: "Vanguard Properties is a leading real estate developer in Portugal. Rebuild their website for real estate listings and the improvements netted them 150% increase in conversion rate.",
+    tech: ["Javascript", "Material UI", "ES6", "Wordpress CMS", "Netlify"],
+    gitlink: "https://www.vangproperties.com/en/",
+  },
+
+  {
+    id: 3,
     title: "Get Fit",
     img: './images/Getfit.png',
     link: "https://get-fitness.netlify.app/",
@@ -27,15 +37,15 @@ export const products = [
     gitlink: "https://github.com/codesabhi/GetFit",
   },
 
-  {
-    id: 3,
-    title: "Marshall's Shop",
-    img: './images/marshall.png',
-    link: "https://marshall-shop.netlify.app/",
-    desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 141% with the brand. ",
-    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
-    gitlink: "https://github.com/codesabhi/Marshall-shop",
-  },
+  // {
+  //   id: 3,
+  //   title: "Marshall's Shop",
+  //   img: './images/marshall.png',
+  //   link: "https://marshall-shop.netlify.app/",
+  //   desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 141% with the brand. ",
+  //   tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+  //   gitlink: "https://github.com/codesabhi/Marshall-shop",
+  // },
   {
     id: 4,
     title: "Crypto Stalker",

@@ -16,6 +16,7 @@ export default function Clients() {
             <div className='imagesSection'><img src={clientOne} alt="" className="client-img" /></div>
             <div className='imagesSection'><img src={clientTwo} alt="" className="client-img2" /></div>
             <div className='imagesSection'><h1 className='client4'>Exclv.</h1></div>
+            {/* <div className='imagesSection'><h1 className='client5'>Roof Commander</h1></div> */}
             </div>
             {/* <div className='imagesSection'><img src={clientFour} alt="" className="client-img2" /></div> */}
         </div>

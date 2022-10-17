@@ -7,18 +7,10 @@
 export const products = [
 
 
-  {
-    id: 1,
-    title: "The Roof Commander",
-    img: './images/Commander.png',
-    link: "https://www.roofcommander.com/",
-    desc: "Roof Commander is a known roofing company serving in Atlantic coastal region. Redesigned it's website to emerge them as business leader and increases their online user engagement rate by 125% in just 60 days of the website launch.",
-    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
-    gitlink: "https://www.roofcommander.com/",
-  },
+  
 
   {
-    id: 2,
+    id: 1,
     title: "Vanguard Properties",
     img: './images/Vanguard.png',
     link: "https://www.vangproperties.com/en/",
@@ -28,7 +20,27 @@ export const products = [
   },
 
   {
+    id: 2,
+    title: "Fox Marin",
+    img: './images/Marin.png',
+    link: "https://foxmarin.ca/",
+    desc: "Fox Marin is a known real estate brokers led by Ralph Fox and Kori Marin serving in Toronto downtown. Designed their website with SEO and rank them on Google Searches.",
+    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+    gitlink: "https://foxmarin.ca/",
+  },
+
+  {
     id: 3,
+    title: "The Roof Commander",
+    img: './images/Commander.png',
+    link: "https://www.roofcommander.com/",
+    desc: "Roof Commander is a known roofing company serving in Atlantic coastal region. Redesigned it's website to emerge them as business leader and increases their online user engagement rate by 125% in just 60 days of the website launch.",
+    tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+    gitlink: "https://www.roofcommander.com/",
+  },
+
+  {
+    id: 4,
     title: "Get Fit",
     img: './images/Getfit.png',
     link: "https://get-fitness.netlify.app/",
@@ -47,7 +59,7 @@ export const products = [
   //   gitlink: "https://github.com/codesabhi/Marshall-shop",
   // },
   {
-    id: 4,
+    id: 5,
     title: "Crypto Stalker",
     img: './images/cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
@@ -64,15 +76,15 @@ export const products = [
   //   tech: ["React", "Material UI", "Axios", "PWAs", "Netlify"],
   //   gitlink: "https://github.com/codesabhi/word-index",
   // },
-  {
-    id: 5,
-    title: "Learn Code Online",
-    img: './images/learncode.png',
-    link: "https://lcocourse.netlify.app/",
-    desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
-    tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart"],
-    gitlink: "https://github.com/codesabhi/LCO-course-App",
-  },
+  // {
+  //   id: 5,
+  //   title: "Learn Code Online",
+  //   img: './images/learncode.png',
+  //   link: "https://lcocourse.netlify.app/",
+  //   desc: "LCO coding course selling website along with snipcart integration and contentful CMS support built with react, gatsby and graphQL.",
+  //   tech: ["React", "Gatsby", "GraphQL", "Contentful", "Snipcart"],
+  //   gitlink: "https://github.com/codesabhi/LCO-course-App",
+  // },
 ];
 
 

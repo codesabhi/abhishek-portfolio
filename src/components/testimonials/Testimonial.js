@@ -39,6 +39,14 @@ export default function Testimonial() {
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Brandon Losik</h2>
                     <p className='testProfile'>CEO, The Roof Commander</p>
                 </div>
+
+                <div className='testDivOne'>
+                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek did a great job on my website. From beginning to end he was very professional and always there when I wanted to make any changes. I would 100% recommend Abhishek </p>
+                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Kori Marin</h2>
+                    <p className='testProfile'>Founder, Fox Marin</p>
+                </div>
+
+
                 <div className='testDivOne'>
                     <p className='testdescTwo testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek is one of the most dedicated developer I’ve worked with and is willing to put that extra help whenever you need it. His expertise as a developer is considerable. I highly recommend Abhishek and would love to work with him again. </p>
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Sonali Verma</h2>

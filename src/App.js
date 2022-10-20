@@ -25,7 +25,7 @@ const App = () => {
       }}
     >
       <Toggle/>
-      <Hero/>
+      <Hero/> 
       <About/>
       <Skill/>
       <ProductList/>

@@ -29,7 +29,7 @@ export default function Testimonial() {
                 </div>
 
                 <div className='testDivOne'>
-                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated  45+ new buyers and added $20 million in revenue.</p>
+                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 45+ new leads. I'd definitely recommend Abhishek.</p>
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Jose Cardoso</h2>
                     <p className='testProfile'>CEO, Vanguard Properties</p>
                 </div>
@@ -41,14 +41,14 @@ export default function Testimonial() {
                 </div>
 
                 <div className='testDivOne'>
-                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek did a great job on my website. From beginning to end he was very professional and always there when I wanted to make any changes. I would 100% recommend Abhishek </p>
+                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek did a great job on my website. From beginning to end he was very professional and always there when I wanted to make any changes. Abhishek managed to optimize our website conversion rate by 120% in the first 60 days of the launch. </p>
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Kori Marin</h2>
                     <p className='testProfile'>Founder, Fox Marin</p>
                 </div>
 
 
                 <div className='testDivOne'>
-                    <p className='testdescTwo testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek is one of the most dedicated developer I’ve worked with and is willing to put that extra help whenever you need it. His expertise as a developer is considerable. I highly recommend Abhishek and would love to work with him again. </p>
+                    <p className='testdescTwo testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek is one of the most dedicated web developer I’ve worked with and is willing to put that extra help whenever you need it. His expertise as a developer is considerable. I highly recommend Abhishek and would love to work with him again. </p>
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Sonali Verma</h2>
                     <p className='testProfile'>Analyst, Capgemini</p>
                 </div>

@@ -11,12 +11,12 @@ export const products = [
 
   {
     id: 1,
-    title: "Vanguard Properties",
-    img: './images/Vanguard.png',
-    link: "https://www.vangproperties.com/en/",
-    desc: "Vanguard Properties is a leading real estate developer in Portugal. Rebuild their website for real estate listings and the improvements netted them 150% increase in conversion rate.",
+    title: "Rina - Real Estate",
+    img: './images/Rina.png',
+    link: "https://rina.ca/",
+    desc: "Rina is a leading real estate agent in Canada. Rebuild their website for real estate listings and the improvements netted them 150% increase in conversion rate.",
     tech: ["Javascript", "Material UI", "ES6", "Wordpress CMS", "Netlify"],
-    gitlink: "https://www.vangproperties.com/en/",
+    gitlink: "https://rina.ca/",
   },
 
   {

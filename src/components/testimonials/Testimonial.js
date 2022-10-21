@@ -30,8 +30,8 @@ export default function Testimonial() {
 
                 <div className='testDivOne'>
                     <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 45+ new leads. I'd definitely recommend Abhishek.</p>
-                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Jose Cardoso</h2>
-                    <p className='testProfile'>CEO, Vanguard Properties</p>
+                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Rina DiRisio</h2>
+                    <p className='testProfile'>CEO, Rina.ca</p>
                 </div>
 
                 <div className='testDivOne'>

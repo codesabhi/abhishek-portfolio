@@ -57,6 +57,12 @@ export default function Testimonial() {
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Aditya Narayan</h2>
                     <p className='testProfile'>Founder, Stockcell</p>
                 </div>
+
+                <div className='testDivOne'>
+                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Abhishek is a genius web designer and marketer. He knows the ABCs of real-estate and delivered the work flawlessly without any hassle. We loved Abhishek's honesty and how quick he was to point out any potential issues in website.</p>
+                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Austin Titus</h2>
+                    <p className='testProfile'>Real Estate Broker</p>
+                </div>
             </Carousel>
 
 

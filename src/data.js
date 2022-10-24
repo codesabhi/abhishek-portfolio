@@ -49,17 +49,18 @@ export const products = [
     gitlink: "https://github.com/codesabhi/GetFit",
   },
 
-  // {
-  //   id: 3,
-  //   title: "Marshall's Shop",
-  //   img: './images/marshall.png',
-  //   link: "https://marshall-shop.netlify.app/",
-  //   desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 141% with the brand. ",
-  //   tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
-  //   gitlink: "https://github.com/codesabhi/Marshall-shop",
-  // },
   {
     id: 5,
+    title: "Austin D. - Real Estate",
+    img: './images/Austin.png',
+    link: "https://austindtitus.ca/",
+    desc: "Rebuild the high-converting real estate website for Austin, and was able to successfully rank on google searches within 90 days of the launch.",
+    tech: ["Javascript", "Material UI", 'webflow', "ES6", "SASS", "Netlify"],
+    gitlink: "https://austindtitus.ca/",
+  },
+
+  {
+    id: 6,
     title: "Crypto Stalker",
     img: './images/cryptostalker.png',
     link: "https://crypto-stalker.netlify.app/",
@@ -67,6 +68,16 @@ export const products = [
     tech: ["React", "Material UI", "Chart Js", "Redux", "Netlify"],
     gitlink: "https://github.com/codesabhi/crypto-stalker-app",
   },
+
+  // {
+  //   id: 5,
+  //   title: "Austin D. - Real Estate",
+  //   img: './images/marshal.png',
+  //   link: "https://marshall-shop.netlify.app/",
+  //   desc: "A new pet-care ecommerce website represented the Marshall's shop brand to its full potential and delivers confidence to those who visit. Successfully increased engagement to 141% with the brand. ",
+  //   tech: ["Javascript", "Material UI", "ES6", "SASS", "Netlify"],
+  //   gitlink: "https://github.com/codesabhi/Marshall-shop",
+  // },
   // {
   //   id: 2,
   //   title: "Word Index",

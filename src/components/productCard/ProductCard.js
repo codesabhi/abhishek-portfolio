@@ -4,6 +4,7 @@ import {FiGithub} from 'react-icons/fi'
 import {FiArrowUpRight} from 'react-icons/fi'
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+// import {useNavigate} from 'react-router-dom'
 
 
 const ProductCard = ({title,img,link,desc,tech,git}) => {

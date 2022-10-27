@@ -153,7 +153,8 @@ margin-top: 30px;
 }
 
 .rinaHeadingOne{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 400;
 }
 
 .rinaTwo{
@@ -173,31 +174,34 @@ margin-top: 30px;
 
 .rinaSix{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .rinaSeven{
     width: 100%;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 8px;
+    font-size: 18px;
+    
 }
 
 .rinaBtn{
-    margin-left: 35%;
+    margin-left: 33%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 
 .rinaHead{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 300;
     margin-top: 20px;
 }
 
 .rinaPoint{
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
 }
 
 .rinaButton{

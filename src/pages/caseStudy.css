@@ -138,15 +138,16 @@ margin-right: -10px;
     }
 
     .styleHead{
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 300;
         margin-top: 20px;
     }
 
     .stylePoint{
         width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 16px;
     }
 
     .styledButton{

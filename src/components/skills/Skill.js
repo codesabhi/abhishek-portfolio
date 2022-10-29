@@ -2,7 +2,7 @@ import React from 'react'
 import './skill.css'
 
 const skill = () => {
-    const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Redux-toolkit', 'Gatsby', 'Wordpress', 'JWT', 'Material-UI', 'Styled Components', 'Node.js', 'Express.js', 'MongoDb', 'Context API', 'Firebase']
+    const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Redux-toolkit', 'Gatsby', 'Wordpress', 'JWT', 'Material-UI', 'Squarespace', 'Node.js', 'Express.js', 'MongoDb', 'Webflow', 'Firebase']
     return (
         <div className="s-outer">
         <div className="s-inner">

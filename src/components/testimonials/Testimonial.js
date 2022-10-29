@@ -22,16 +22,18 @@ export default function Testimonial() {
         autoPlay={true}
         interval={5000}
         >
+                
+
+                <div className='testDivOne'>
+                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 25+ new leads. I'd definitely recommend Abhishek.</p>
+                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Rina DiRisio</h2>
+                    <p className='testProfile'>CEO, Rina.ca</p>
+                </div>
+
                 <div className='testDivOne'>
                     <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>It was great working with Abhishek. He's super proactive & passionate about everything he does. He picked up the brief quickly & was able to deliver flawlessly. Thanks, Abhishek!</p>
                     <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Anuj Lohiya</h2>
                     <p className='testProfile'>Founder, NG Greens</p>
-                </div>
-
-                <div className='testDivOne'>
-                    <p className='testdescOne testAll' style={darkMode ? {} : {color: 'white'}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 45+ new leads. I'd definitely recommend Abhishek.</p>
-                    <h2 className='testOwner' style={darkMode ? {} : {color: 'white'}}>Rina DiRisio</h2>
-                    <p className='testProfile'>CEO, Rina.ca</p>
                 </div>
 
                 <div className='testDivOne'>

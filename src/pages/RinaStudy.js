@@ -40,7 +40,7 @@ export default function RinaStudy() {
 
     <p className='rinaSeven'>We made sure to optimize the SEO so that none of the old authority and SEO were lost during the switchover, and we were able to get multiple pages listed on Google -- eliminating having the same page compete with itself for multiple key-phrases.</p>
 
-    <p className='rinaSeven'>In the first three months of operations we increased the conversion rate by <span className='rinaEight'>218%</span> compared the same three months the prior year. Not only that,we increased lead quality by <span className='rinaEight'>50% </span>-- by eliminating all but 1 rental lead, which they do not do. Rina can also attribute at least 3 sale to their new website within the first 3 month.</p>
+    <p className='rinaSeven'>In the first three months of operations we increased the conversion rate by <span className='rinaEight'>218%</span> compared the same three months the prior year. Not only that,we increased lead quality by <span className='rinaEight'>50% </span>-- by eliminating all but 1 rental lead, which they do not do. Rina can also attribute at least 4 sale to their new website within the first 3 month.</p>
 
     <p className='rinaSeven rinaBottom' >We successfully optimized the organic search traffic by <span className='rinaEight'>+46%</span> year-over-year.</p>
 

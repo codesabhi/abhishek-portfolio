@@ -21,7 +21,7 @@ export const products = [
 
   {
     id: 2,
-    title: "Fox Marin",
+    title: "Fox Marin - Real Estate",
     img: './images/Marin.png',
     link: "https://foxmarin.ca/",
     desc: "Fox Marin is a known real estate brokers led by Ralph Fox and Kori Marin serving in Toronto downtown. Designed their website with SEO and rank them on Google Searches.",
@@ -39,24 +39,26 @@ export const products = [
     gitlink: "https://www.roofcommander.com/",
   },
 
-  {
-    id: 4,
-    title: "Get Fit",
-    img: './images/Getfit.png',
-    link: "https://get-fitness.netlify.app/",
-    desc: "Redesign and build the website for Get Fit brand in Atlanta and was able generate 20+ monthly quotes and 8 new clients each month successfully.",
-    tech: ["Javascript", "Bootstrap", "ES6", "SASS", "Netlify"],
-    gitlink: "https://github.com/codesabhi/GetFit",
-  },
+  
 
   {
-    id: 5,
+    id: 4,
     title: "Austin D. - Real Estate",
     img: './images/Austin.png',
     link: "https://austindtitus.ca/",
     desc: "Rebuild the high-converting real estate website for Austin, and was able to successfully rank on google searches within 60 days of the launch and managed to get +115% organic impressions.",
     tech: ["Javascript", "Material UI", 'webflow', "ES6", "SASS", "Netlify"],
     gitlink: "https://austindtitus.ca/",
+  },
+
+  {
+    id: 5,
+    title: "Get Fit",
+    img: './images/Getfit.png',
+    link: "https://get-fitness.netlify.app/",
+    desc: "Redesign and build the website for Get Fit brand in Atlanta and was able generate 20+ monthly quotes and 8 new clients each month successfully.",
+    tech: ["Javascript", "Bootstrap", "ES6", "SASS", "Netlify"],
+    gitlink: "https://github.com/codesabhi/GetFit",
   },
 
   {

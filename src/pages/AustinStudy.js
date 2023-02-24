@@ -59,6 +59,14 @@ export default function AustinStudy() {
 
     <hr className='rinaNine'/>
 
+<div className='rinaTestOne'>
+                <p className='rinaTestTwo' style={darkMode ? {color: 'white'} : {}}>Abhishek is a genius web designer and marketer. He knows the ABCs of real-estate and delivered the work flawlessly without any hassle. We loved Abhishek's honesty and how quick he was to point out any potential issues in website.</p>
+                <h2 className='rinaOwner' style={darkMode ? {color: 'green'} : {}}>Austin Titus</h2>
+                <p className='rinaTestProfile'>Real Estate Broker</p>
+</div>
+
+    <hr className='rinaNine'/>
+
     <h1 className='rinaHead'>Start Your Project</h1>
         <p className='rinaPoint'>If your website isn't performing well or just doesn't properly represent your business, talk to us. We will build you a solution that works.</p>
         <a href='https://calendly.com/abhishek-design/discovery-meeting' target='_blank' className='rinaButton'>Book a Meeting →</a>

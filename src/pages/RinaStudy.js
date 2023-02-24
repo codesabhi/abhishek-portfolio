@@ -55,6 +55,15 @@ export default function RinaStudy() {
 
     <hr className='rinaNine'/>
 
+    <div className='rinaTestOne'>
+                    <p className='rinaTestTwo' style={darkMode ? {color: 'white'} : {}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 45+ new leads. I'd definitely recommend Abhishek.</p>
+                    <h2 className='rinaOwner' style={darkMode ? {color: 'green'} : {}}>Rina DiRisio</h2>
+                    <p className='rinaTestProfile'>CEO, Rina.ca</p>
+    </div>
+
+    
+    <hr className='rinaNine'/>
+
     <h1 className='rinaHead'>Start Your Project</h1>
         <p className='rinaPoint'>If your website isn't performing well or just doesn't properly represent your business, talk to us. We will build you a solution that works.</p>
         <a href='https://calendly.com/abhishek-design/discovery-meeting' target='_blank' className='rinaButton'>Book a Meeting →</a>

@@ -54,14 +54,14 @@ const Hero = () => {
             >
               <FiLinkedin />
             </a>
-            <a
+            {/* <a
               className="i-socialicons"
               rel="noreferrer"
               href="https://twitter.com/codes_abhi"
               target="_blank"
             >
               <FiTwitter />
-            </a>
+            </a> */}
             
             
           </div>

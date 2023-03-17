@@ -56,7 +56,7 @@ export default function RinaStudy() {
     <hr className='rinaNine'/>
 
     <div className='rinaTestOne'>
-                    <p className='rinaTestTwo' style={darkMode ? {color: 'white'} : {}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated 45+ new leads. I'd definitely recommend Abhishek.</p>
+                    <p className='rinaTestTwo' style={darkMode ? {color: 'white'} : {}}>Our old website was terrible. I don't think it ever generated a lead for our sales team. Abhishek built a new site from the ground up, and we're extremely happy with it. Within 90 days we've generated qualified new leads. I'd definitely recommend Abhishek.</p>
                     <h2 className='rinaOwner' style={darkMode ? {color: 'green'} : {}}>Rina DiRisio</h2>
                     <p className='rinaTestProfile'>CEO, Rina.ca</p>
     </div>
